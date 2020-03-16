@@ -1,6 +1,9 @@
-let f = 5;
-let fac = 1;
-for(i = 1; i<=f; i++){
-    fac *= i
+function fac(f) {
+    let fa = 1;
+    for(i = 1; i<=f; i++){
+    fa *= i
+    }
+    return fa
 }
-console.log(fac)
+
+module.exports = fac
